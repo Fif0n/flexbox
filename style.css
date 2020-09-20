@@ -34,7 +34,7 @@ body {
 }
 .navigation-bar {
     margin: auto;
-    width: 50%;
+    flex: 0 0 50%;
 }
 .navigation-bar ul {
     list-style-type: none;
