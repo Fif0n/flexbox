@@ -9,9 +9,10 @@ const handleClick = () => {
 }
 
 hamburger.addEventListener('click', handleClick);
+
 window.addEventListener('click', e => {
     if(!hamburger.contains(e.target) && !navigationBar.contains(e.target)){
-        hamburger.classList.toggle('hamburger-active');
-        navigationBar.classList.toggle('navigation-active');
+        hamburger.classList.remove('hamburger-active');
+        navigationBar.classList.remove('navigation-active');
     }
 })
